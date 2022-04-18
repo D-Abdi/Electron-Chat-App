@@ -1,7 +1,7 @@
 export default function Sidebar() {
   return (
-    <div className="h-screen hidden lg:block my-4 ml-4 shadow-lg relative w-80">
-      <div className="bg-white h-full rounded-2xl dark:bg-gray-700">
+    <div className="h-screen hidden lg:block my-4 ml-4 shadow-lg relative w-80 ">
+      <div className="bg-sky-800 h-full rounded-2xl dark:bg-gray-700">
         <div className="flex items-center justify-center pt-6">🙊🙉🙈</div>
         <nav className="mt-6">
           <div>
@@ -25,7 +25,7 @@ export default function Sidebar() {
             </a>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              className="w-full font-thin uppercase text-gray-500 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              className="w-full font-thin uppercase text-sky-300 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
               href="#"
             >
               <span className="text-left">
@@ -44,7 +44,7 @@ export default function Sidebar() {
             </a>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              className="w-full font-thin uppercase text-gray-500 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              className="w-full font-thin uppercase text-sky-300 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
               href="#"
             >
               <span className="text-left">
@@ -63,7 +63,7 @@ export default function Sidebar() {
             </a>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              className="w-full font-thin uppercase text-gray-500 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              className="w-full font-thin uppercase text-sky-300 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
               href="#"
             >
               <span className="text-left">
@@ -82,7 +82,7 @@ export default function Sidebar() {
             </a>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              className="w-full font-thin uppercase text-gray-500 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              className="w-full font-thin uppercase text-sky-300 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
               href="#"
             >
               <span className="text-left">
@@ -101,7 +101,7 @@ export default function Sidebar() {
             </a>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              className="w-full font-thin uppercase text-gray-500 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              className="w-full font-thin uppercase text-sky-300 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
               href="#"
             >
               <span className="text-left">
@@ -120,7 +120,7 @@ export default function Sidebar() {
             </a>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              className="w-full font-thin uppercase text-gray-500 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              className="w-full font-thin uppercase text-sky-300 dark:text-gray-200 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
               href="#"
             >
               <span className="text-left">

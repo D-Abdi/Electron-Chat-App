@@ -1,22 +1,22 @@
 import { MemoryRouter as Router } from 'react-router';
 import { Route, Switch } from 'react-router-dom';
 import Sidebar from './Components/Sidebar';
-import Home from './Views/Home';
+import PdfForm from './Views/FileGenerator/PdfForm';
+// import Contacts from './Views/Chat/Contacts';
+// import Conversation from './Views/Conversation';
 
 export default function PageLayout() {
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-8 gap-4">
       <div className="col-span-2">
         <Sidebar />
       </div>
-      <div>
-        <div className="col-span-1">
+      <div className="col-span-6">
           <Router>
             <Switch>
-              <Route path="/" component={Home} />
+              <Route path="/" component={PdfForm} />
             </Switch>
           </Router>
-        </div>
       </div>
     </div>
   );
